@@ -1,0 +1,74 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(0, 0.00%, 100.00%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Container padding */
+  .container {
+    padding: 20px;
+  }
+  
+  /* Wrapper holds bg + card */
+  .card-wrapper {
+    position: relative;
+    width: 320px;
+    height: auto;
+  }
+  
+  /* Decorative Blue Background */
+  .decor-bg {
+    position: absolute;
+    top: -40px;
+    left: -500px;
+    width: 400%;
+    height: 120%;
+    background-color: hsl(212, 45%, 89%);
+    border-radius: 0px;
+    z-index: 0;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Card sits above */
+  .card {
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  /* Blue QR Box */
+  .qr-box {
+    background-color: hsl(220, 100%, 60%);
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  /* QR Image */
+  .qr-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Typography */
+  .card h1 {
+    font-size: 1.375rem;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  
+  .card p {
+    font-size: 0.9375rem;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  
